@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora IMC</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <section class="container">
+        <div class="box">
+            <strong>
+                <p class="title">Tabela IMC</p>
+            </strong>
+            <table>
+                <thead>
+                    <tr>
+                        <th scope="col" class="imc">IMC</th>
+                        <th scope="col" class="resultados">Resultados</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td scope="row">Menos do que 18,5</th>
+                        <td scope="row">Abaixo do peso</td>
+                    </tr>
+                    <tr>
+                        <td scope="row">Entre 18,5 e 24,9</th>
+                        <td scope="row">Peso normal</td>
+                    </tr>
+                    <tr>
+                        <td scope="row">Entre 25 e 29,9</th>
+                        <td scope="row">Sobrepeso</td>
+                    </tr>
+                    <tr>
+                        <td scope="row">Entre 30 e 34,9</th>
+                        <td scope="row">Obesidade grau 1</td>
+                    </tr>
+                    <tr>
+                        <td scope="row">Entre 35 e 39,9</th>
+                        <td scope="row">Obesidade grau 2</td>
+                    </tr>
+                    <tr>
+                        <td scope="row">Mais do que 40</th>
+                        <td scope="row">Obesidade grau 3</td>
+                    </tr>
+                </tbody>
+            </table>
+            <strong>
+                <p class="calcule">Calcule seu IMC</p>
+            </strong>
+            <form class="form">
+                <label for="peso" class="labelPeso">Peso: </label>
+                <input type="text" class="inputPeso" placeholder="Ex: 80.00" />
+                <label for="altura" class="labelAltura">Altura: </label>
+                <input type="text" class="inputAltura" placeholder="Ex: 1.90" />
+                <button type="button" class="button">Calcular</button>
+            </form>
+        </div>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

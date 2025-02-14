@@ -64,11 +64,6 @@ input {
     font-size: 15px;
 }
 
-.resultado.erro {
-    background-color: red;
-    color: white;
-}
-
 input:hover {
     border: 2px solid var(--primary-color);
     border-radius: 0px;
